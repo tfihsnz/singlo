@@ -60,19 +60,123 @@ body {
 .serve {
   color: #666d89;
   max-width: 960px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
+  border-bottom: 6px solid #ffffff;
 }
+
+.serve img {
+  float: left;
+  margin-top: 30px;
+}
+
+.serve h3 {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+.serve p {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .title {
   font-size: 1.90rem;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .sinfo {
   font-weight: 50;
+  line-height: 2.5rem;
 }
+
+.one {
+  float: left;
+  width: 320px;
+  height: 260px;
+  margin-bottom: 50px;
+
+}
+
+.two {
+  float: left;
+  width: 320px;
+  height: 260px;
+}
+
+.three {
+  float: left;
+  width: 320px;
+  height: 260px;
+}
+
+.port {
+  max-width: 960px;
+  height: 860px;
+  max-height: 946px;
+  background-color: #2d2f3b;
+  margin-left: auto;
+  margin-right: auto;
+  color: #676c8a;
+  border-bottom: 6px solid #313745;
+}
+
+.port h1 {
+  margin-left: 40px;
+  padding-top: 66px;
+}
+
+.port p {
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.tabs {
+  margin-left: 40px;
+}
+
+.tabs a {
+  color: #676c8a;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: .80rem;
+  margin-right: 10px;
+  border: 1px solid #676c8a;
+  border-radius: 5px;
+}
+
+.port img {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 30px;
+  width: 880px;
+  max-width: 880px;
+}
+
+.about_us {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+  height: 730px;
+}
+
+.about_us h1 {
+  margin-left: 40px;
+  padding-top: 65px;
+}
+
 
 @media screen and (max-width: 610px) {
   .logo {
